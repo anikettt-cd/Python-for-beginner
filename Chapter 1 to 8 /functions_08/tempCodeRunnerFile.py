@@ -1,0 +1,1 @@
+ n * factoril(n-1)

@@ -1,0 +1,10 @@
+def factoril(n):
+    if (n==0 or n ==1):
+        return 1 
+    else:
+        return n * factoril(n-1)
+    
+    
+n = int(input("enter the number to find he factoril:"))
+print("the factoril of the entered number is:", factoril(n))
+    
